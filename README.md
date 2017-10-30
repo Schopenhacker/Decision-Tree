@@ -33,3 +33,8 @@ we figure out the class label y given the values of the predictors X by appling 
 Such process is called supervised learning, because we "help" the algorithm by providing a preclassified dataset.
 
 ## Decision Tree Classification
+We can summarize crafted questions, which can approximate the class label, with a decision Tree.
+### Decision Tree Terminologie:
+* Each leaf node (terminal node) corresponds to a class label
+* Each non-terminal node (root or internal node) contains an attribute test condition
+![DT Classifier example] (http://mines.humanoriented.com/classes/2010/fall/csci568/portfolio_exports/lguo/image/decisionTree/decisionTree.jpg)
