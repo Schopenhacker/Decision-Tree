@@ -22,7 +22,7 @@ Each record = tuple(X,Y)
  * X : attribute set or predictors
  * Y : a special attribute
 
-General Approach :
+1. General Approach :
 * Training Set : 
 We dipose of a dataset with known class labels for each record
 We feed the algo with such training data so that it learns the general rules that describe the relationship between x and y: and builds a classification model that maps each x to y
@@ -32,7 +32,7 @@ we figure out the class label y given the values of the predictors X by appling 
 
 Such process is called supervised learning, because we "help" the algorithm by providing a preclassified dataset.
 
-## Decision Tree Classification
+1. Decision Tree Classification
 We can summarize crafted questions, which can approximate the class label, with a decision Tree.
 ### Decision Tree Terminologie:
 * Each leaf node (terminal node) corresponds to a class label
@@ -47,3 +47,8 @@ For a test record the classification is straightforward : starting from the root
 
 
 ![test classification](http://mines.humanoriented.com/classes/2010/fall/csci568/portfolio_exports/lguo/image/decisionTree/classification.jpg)
+
+
+
+1. Decision Tree algorithm:
+
