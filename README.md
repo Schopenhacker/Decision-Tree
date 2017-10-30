@@ -11,3 +11,24 @@ To do so, we need the know how to address the following issues:
   * when a node is considered a leaf (terminal node corresponding to a class label) ?
 * Arrange splits into a decision tree structure.
 * Classify a test set : each record is made up of only predictors and we have to find out its class label
+
+## Classification
+in this project we will discuss the classification Decision Tree Algorithm
+First of all, let me explain what is a Classifcation model and how an algorithm process in general to classify data
+input : a structured dataset with a set of attributes (relational table lookslike)
+ ![alt text](https://en.wikipedia.org/wiki/Relational_database#/media/File:Relational_database_terms.svg)
+we can identify an implicit hidden pattern:
+ each record = tuple(X,Y)
+ * X : attribute set or predictors
+ * Y : a special attribute
+General Approach :
+>Training Set : 
+ we dipose of a dataset with known class labels for each record
+ we feed the algo with such training data so that it learns the general rules that describe the relationship between x and y: and builds a classification model that maps each x to y
+>Test set :
+for each record we only dispose of the values of X
+we figure out the class label y given the values of the predictors X by appling the classification model built with the training set
+
+Such process is called supervised learning, because we "help" the algorithm by providing a preclassified dataset.
+
+## Decision Tree Classification
