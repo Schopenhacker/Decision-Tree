@@ -17,15 +17,11 @@ In this project we will discuss the classification Decision Tree Algorithm
 First of all, let me explain what is a Classifcation model and how an algorithm process in general to classify data
 input : a structured dataset with a set of attributes [relational table lookslike]
 [relational table lookslike]: <https://upload.wikimedia.org/wikipedia/en/b/b7/Relational_db_terms.png)> "rel table"
-
-La [faculté ENAC] forme des ing.
-[faculté enac]: <http://enac.epfl.ch> "Environnement naturel..."
-
-we can identify an implicit hidden pattern:
- each record = tuple(X,Y)
+We can identify an implicit hidden pattern:
+ Each record = tuple(X,Y)
  * X : attribute set or predictors
  * Y : a special attribute
-
+![Google logo](https://www.google.fr/images/srpr/logo11w.png "google logo")
 General Approach :
 * Training Set : 
 We dipose of a dataset with known class labels for each record
