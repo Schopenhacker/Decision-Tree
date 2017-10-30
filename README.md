@@ -16,7 +16,7 @@ To do so, we need the know how to address the following issues:
 In this project we will discuss the classification Decision Tree Algorithm
 First of all, let me explain what is a Classifcation model and how an algorithm process in general to classify data
 input : a structured dataset with a set of attributes [relational table lookslike]
-[relational table lookslike]: <https://upload.wikimedia.org/wikipedia/en/b/b7/Relational_db_terms.png)>
+[relational table lookslike]: <https://upload.wikimedia.org/wikipedia/en/b/b7/Relational_db_terms.png)> "rel table"
 we can identify an implicit hidden pattern:
  each record = tuple(X,Y)
  * X : attribute set or predictors
