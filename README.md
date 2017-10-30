@@ -37,4 +37,5 @@ We can summarize crafted questions, which can approximate the class label, with 
 ### Decision Tree Terminologie:
 * Each leaf node (terminal node) corresponds to a class label
 * Each non-terminal node (root or internal node) contains an attribute test condition
+![DT Classifier example](http://mines.humanoriented.com/classes/2010/fall/csci568/portfolio_exports/lguo/image/decisionTree/decisionTree.jpg)
 ![DT Classifier] (http://mines.humanoriented.com/classes/2010/fall/csci568/portfolio_exports/lguo/image/decisionTree/decisionTree.jpg)
