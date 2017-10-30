@@ -78,9 +78,6 @@ class Node:
 	            return True
         return False
     
-
-    
-
          
 def split_node(node):
     """select the best split for the node"""
@@ -139,3 +136,7 @@ if __name__ == '__main__':
 	test_set = [[3.678319846,2.81281357], [9.00220326, 3.339047188]]
 	for test in test_set:
 		print('*****\n{} ==> {}'.format(str(test),classify(root, test)))
+
+		
+		
+		
