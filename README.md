@@ -56,4 +56,4 @@ Several efficent algorithms have been developed to construct a decision tree for
 Example of greedy algorithms: Hunt's algorithm, ID3, C4.5, CART...
 
 In our projetc we xil use Hunt's Algorithme:
-We Partition training data into purer subsets in a recursive fashion/
+We Partition training data into purer subsets in a recursive fashion:
