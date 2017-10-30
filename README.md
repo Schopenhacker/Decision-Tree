@@ -22,7 +22,7 @@ Each record = tuple(X,Y)
  * X : attribute set or predictors
  * Y : a special attribute
 
-1. General Approach :
+## General Approach :
 * Training Set : 
 We dipose of a dataset with known class labels for each record
 We feed the algo with such training data so that it learns the general rules that describe the relationship between x and y: and builds a classification model that maps each x to y
@@ -32,7 +32,7 @@ we figure out the class label y given the values of the predictors X by appling 
 
 Such process is called supervised learning, because we "help" the algorithm by providing a preclassified dataset.
 
-1. Decision Tree Classification
+## Decision Tree Classification
 We can summarize crafted questions, which can approximate the class label, with a decision Tree.
 ### Decision Tree Terminologie:
 * Each leaf node (terminal node) corresponds to a class label
@@ -50,5 +50,10 @@ For a test record the classification is straightforward : starting from the root
 
 
 
-1. Decision Tree algorithm:
+### Decision Tree algorithm:
 
+Several efficent algorithms have been developed to construct a decision tree for a given dataset in a reasonable amount of time. These algorithms usually employ a greedy strategy: which means that the tree grows by making a series of locally optimum decisions about which attribute to use for partitioning the data creating new split condition nodes.
+Example of greedy algorithms: Hunt's algorithm, ID3, C4.5, CART...
+
+In our projetc we xil use Hunt's Algorithme:
+We Partition training data into purer subsets in a recursive fashion/
