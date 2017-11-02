@@ -13,9 +13,9 @@ To do so, we need the know how to address the following issues:
 * Classify a test set : each record is made up of only predictors and we have to find out its class label
 
 ## Classification
-In this project we will discuss the classification Decision Tree Algorithm
-First of all, let me explain what is a Classifcation model and how an algorithm process in general to classify data
-input : a structured dataset with a set of attributes relational table lookslike
+In this project we will discuss the classification Decision Tree Algorithm.
+First of all, let me explain what is a Classifcation model and how an algorithm processes in general to classify data.
+for the input we dispose of a structured dataset with a set of attributes (relational table lookslike)
 We can identify an implicit hidden pattern:
 
 Each record = tuple(X,Y)
